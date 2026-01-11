@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+build/
+.vite/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+api/.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# CodeIgniter specific
+api/writable/cache/*
+api/writable/logs/*
+api/writable/session/*
+api/writable/uploads/*
+!api/writable/cache/.gitkeep
+!api/writable/logs/.gitkeep
+!api/writable/session/.gitkeep
+!api/writable/uploads/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Lock files (optional - uncomment if you want to ignore)
+# package-lock.json
+# composer.lock

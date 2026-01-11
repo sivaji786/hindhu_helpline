@@ -1,0 +1,516 @@
+import svgPaths from "./svg-lo6atodgac";
+import imgGhhfLogo1 from "figma:asset/42cc9add3efc5f0f8207b6a0b18b4e5ee4a87edd.png";
+import imgImage7 from "figma:asset/ad238b7b70c9f951e40c530180cf073a994ff9a7.png";
+
+function Frame() {
+  return (
+    <div className="content-stretch flex flex-col items-center leading-[normal] not-italic pb-[4px] pt-0 px-0 relative shrink-0 text-nowrap">
+      <p className="font-['Poppins:Bold',sans-serif] relative shrink-0 text-[#800000] text-[24px]">Global Hindu Help Line</p>
+      <p className="font-['Poppins:Regular',sans-serif] opacity-80 relative shrink-0 text-[14px] text-black">Towards Restoring of Hindu Heritage</p>
+    </div>
+  );
+}
+
+function Logo() {
+  return (
+    <div className="content-stretch flex flex-col gap-[20px] h-[152px] items-center relative shrink-0" data-name="Logo2">
+      <div className="h-[76.287px] relative shrink-0 w-[80px]" data-name="ghhf logo 1">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <img alt="" className="absolute h-[176.99%] left-[-13.5%] max-w-none top-[-35.69%] w-[126.58%]" src={imgGhhfLogo1} />
+        </div>
+      </div>
+      <Frame />
+    </div>
+  );
+}
+
+function Title() {
+  return (
+    <div className="content-stretch flex flex-col items-center leading-[0] not-italic relative shrink-0 text-center w-full" data-name="Title">
+      <div className="flex flex-col font-['Poppins:Bold',sans-serif] justify-center relative shrink-0 text-[#313030] text-[36px] w-full">
+        <p className="leading-[60px]">Registration</p>
+      </div>
+      <div className="flex flex-col font-['Poppins:Regular',sans-serif] justify-center relative shrink-0 text-[#797676] text-[16px] w-full">
+        <p className="leading-[30px]">Enter your details to create an account</p>
+      </div>
+    </div>
+  );
+}
+
+function LabelTextContainer() {
+  return (
+    <div className="content-stretch flex items-center relative shrink-0 w-full" data-name="Label text container">
+      <p className="basis-0 font-['Poppins:Regular',sans-serif] grow leading-[30px] min-h-px min-w-px not-italic relative shrink-0 text-[#797676] text-[20px]">Name*</p>
+    </div>
+  );
+}
+
+function Content() {
+  return (
+    <div className="basis-0 content-stretch flex flex-col grow h-[48px] items-start justify-center min-h-px min-w-px px-0 py-[4px] relative shrink-0" data-name="Content">
+      <LabelTextContainer />
+    </div>
+  );
+}
+
+function StateLayer() {
+  return (
+    <div className="basis-0 grow min-h-px min-w-px relative rounded-tl-[4px] rounded-tr-[4px] shrink-0 w-full" data-name="State-layer">
+      <div className="size-full">
+        <div className="content-stretch flex items-start pl-[16px] pr-0 py-[4px] relative size-full">
+          <Content />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function TextField() {
+  return (
+    <div className="basis-0 content-stretch flex flex-col grow items-start min-h-px min-w-px relative rounded-[4px] shrink-0 w-full" data-name="Text field">
+      <div aria-hidden="true" className="absolute border border-[#c9c6c5] border-solid inset-0 pointer-events-none rounded-[4px]" />
+      <StateLayer />
+    </div>
+  );
+}
+
+function TextFieldName() {
+  return (
+    <div className="content-stretch flex flex-col h-[56px] items-start relative rounded-tl-[4px] rounded-tr-[4px] shrink-0 w-full" data-name="Text field - Name">
+      <TextField />
+    </div>
+  );
+}
+
+function LabelTextContainer1() {
+  return (
+    <div className="content-stretch flex items-center relative shrink-0 w-full" data-name="Label text container">
+      <p className="basis-0 font-['Poppins:Regular',sans-serif] grow leading-[30px] min-h-px min-w-px not-italic relative shrink-0 text-[#797676] text-[20px]">Surname*</p>
+    </div>
+  );
+}
+
+function Content1() {
+  return (
+    <div className="basis-0 content-stretch flex flex-col grow h-[48px] items-start justify-center min-h-px min-w-px px-0 py-[4px] relative shrink-0" data-name="Content">
+      <LabelTextContainer1 />
+    </div>
+  );
+}
+
+function StateLayer1() {
+  return (
+    <div className="basis-0 grow min-h-px min-w-px relative rounded-tl-[4px] rounded-tr-[4px] shrink-0 w-full" data-name="State-layer">
+      <div className="size-full">
+        <div className="content-stretch flex items-start pl-[16px] pr-0 py-[4px] relative size-full">
+          <Content1 />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function TextField1() {
+  return (
+    <div className="basis-0 content-stretch flex flex-col grow items-start min-h-px min-w-px relative rounded-[4px] shrink-0 w-full" data-name="Text field">
+      <div aria-hidden="true" className="absolute border border-[#c9c6c5] border-solid inset-0 pointer-events-none rounded-[4px]" />
+      <StateLayer1 />
+    </div>
+  );
+}
+
+function TextFieldSurname() {
+  return (
+    <div className="content-stretch flex flex-col h-[56px] items-start relative rounded-tl-[4px] rounded-tr-[4px] shrink-0 w-full" data-name="Text field - Surname">
+      <TextField1 />
+    </div>
+  );
+}
+
+function LabelTextContainer2() {
+  return (
+    <div className="content-stretch flex items-center relative shrink-0 w-full" data-name="Label text container">
+      <p className="basis-0 font-['Poppins:Regular',sans-serif] grow leading-[30px] min-h-px min-w-px not-italic relative shrink-0 text-[#797676] text-[20px]">Martial status*</p>
+    </div>
+  );
+}
+
+function Content2() {
+  return (
+    <div className="basis-0 content-stretch flex flex-col grow h-[48px] items-start justify-center min-h-px min-w-px px-0 py-[4px] relative shrink-0" data-name="Content">
+      <LabelTextContainer2 />
+    </div>
+  );
+}
+
+function StateLayer2() {
+  return (
+    <div className="basis-0 grow min-h-px min-w-px relative rounded-tl-[4px] rounded-tr-[4px] shrink-0 w-full" data-name="State-layer">
+      <div className="size-full">
+        <div className="content-stretch flex items-start pl-[16px] pr-0 py-[4px] relative size-full">
+          <Content2 />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function TextField2() {
+  return (
+    <div className="basis-0 content-stretch flex flex-col grow items-start min-h-px min-w-px relative rounded-[4px] shrink-0 w-full" data-name="Text field">
+      <div aria-hidden="true" className="absolute border border-[#c9c6c5] border-solid inset-0 pointer-events-none rounded-[4px]" />
+      <StateLayer2 />
+    </div>
+  );
+}
+
+function TextFieldMartialStatus() {
+  return (
+    <div className="[grid-area:1_/_1] content-stretch flex flex-col h-[56px] items-start ml-0 mt-0 relative rounded-tl-[4px] rounded-tr-[4px] w-[432px]" data-name="Text field - Martial status">
+      <TextField2 />
+    </div>
+  );
+}
+
+function ArrowDropDown() {
+  return (
+    <div className="[grid-area:1_/_1] ml-[392px] mt-[16px] relative size-[24px]" data-name="arrow_drop_down">
+      <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
+        <g id="arrow_drop_down">
+          <path d="M12 15L7 10H17L12 15Z" fill="var(--fill-0, #1D1B20)" id="icon" />
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+function MartialStatus() {
+  return (
+    <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-name="Martial Status">
+      <TextFieldMartialStatus />
+      <ArrowDropDown />
+    </div>
+  );
+}
+
+function LabelTextContainer3() {
+  return (
+    <div className="content-stretch flex items-center relative shrink-0 w-full" data-name="Label text container">
+      <p className="basis-0 font-['Poppins:Regular',sans-serif] grow leading-[30px] min-h-px min-w-px not-italic relative shrink-0 text-[#797676] text-[20px]">Blood group</p>
+    </div>
+  );
+}
+
+function Content3() {
+  return (
+    <div className="basis-0 content-stretch flex flex-col grow h-[48px] items-start justify-center min-h-px min-w-px px-0 py-[4px] relative shrink-0" data-name="Content">
+      <LabelTextContainer3 />
+    </div>
+  );
+}
+
+function StateLayer3() {
+  return (
+    <div className="basis-0 grow min-h-px min-w-px relative rounded-tl-[4px] rounded-tr-[4px] shrink-0 w-full" data-name="State-layer">
+      <div className="size-full">
+        <div className="content-stretch flex items-start pl-[16px] pr-0 py-[4px] relative size-full">
+          <Content3 />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function TextField3() {
+  return (
+    <div className="basis-0 content-stretch flex flex-col grow items-start min-h-px min-w-px relative rounded-[4px] shrink-0 w-full" data-name="Text field">
+      <div aria-hidden="true" className="absolute border border-[#c9c6c5] border-solid inset-0 pointer-events-none rounded-[4px]" />
+      <StateLayer3 />
+    </div>
+  );
+}
+
+function TextFieldMartialStatus1() {
+  return (
+    <div className="[grid-area:1_/_1] content-stretch flex flex-col h-[56px] items-start ml-0 mt-0 relative rounded-tl-[4px] rounded-tr-[4px] w-[432px]" data-name="Text field - Martial status">
+      <TextField3 />
+    </div>
+  );
+}
+
+function ArrowDropDown1() {
+  return (
+    <div className="[grid-area:1_/_1] ml-[392px] mt-[16px] relative size-[24px]" data-name="arrow_drop_down">
+      <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
+        <g id="arrow_drop_down">
+          <path d="M12 15L7 10H17L12 15Z" fill="var(--fill-0, #1D1B20)" id="icon" />
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+function BloodGroup() {
+  return (
+    <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0 w-full" data-name="Blood Group">
+      <TextFieldMartialStatus1 />
+      <ArrowDropDown1 />
+    </div>
+  );
+}
+
+function LabelTextContainer4() {
+  return (
+    <div className="content-stretch flex items-center relative shrink-0 w-full" data-name="Label text container">
+      <p className="basis-0 font-['Poppins:Regular',sans-serif] grow leading-[30px] min-h-px min-w-px not-italic relative shrink-0 text-[#797676] text-[20px]">Occupation</p>
+    </div>
+  );
+}
+
+function Content4() {
+  return (
+    <div className="basis-0 content-stretch flex flex-col grow h-[48px] items-start justify-center min-h-px min-w-px px-0 py-[4px] relative shrink-0" data-name="Content">
+      <LabelTextContainer4 />
+    </div>
+  );
+}
+
+function StateLayer4() {
+  return (
+    <div className="basis-0 grow min-h-px min-w-px relative rounded-tl-[4px] rounded-tr-[4px] shrink-0 w-full" data-name="State-layer">
+      <div className="size-full">
+        <div className="content-stretch flex items-start pl-[16px] pr-0 py-[4px] relative size-full">
+          <Content4 />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function TextField4() {
+  return (
+    <div className="basis-0 content-stretch flex flex-col grow items-start min-h-px min-w-px relative rounded-[4px] shrink-0 w-full" data-name="Text field">
+      <div aria-hidden="true" className="absolute border border-[#c9c6c5] border-solid inset-0 pointer-events-none rounded-[4px]" />
+      <StateLayer4 />
+    </div>
+  );
+}
+
+function TextFieldMartialStatus2() {
+  return (
+    <div className="content-stretch flex flex-col h-[56px] items-start relative rounded-tl-[4px] rounded-tr-[4px] shrink-0 w-full" data-name="Text field - Martial status">
+      <TextField4 />
+    </div>
+  );
+}
+
+function Icon() {
+  return (
+    <div className="relative shrink-0 size-[24px]" data-name="icon">
+      <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
+        <g id="icon">
+          <path d={svgPaths.pf1830f2} fill="var(--fill-0, #FF9933)" id="icon_2" />
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+function StateLayer5() {
+  return (
+    <div className="content-stretch flex items-center justify-center p-[8px] relative shrink-0" data-name="state-layer">
+      <Icon />
+    </div>
+  );
+}
+
+function Container() {
+  return (
+    <div className="content-stretch flex items-center justify-center overflow-clip relative rounded-[100px] shrink-0" data-name="container">
+      <StateLayer5 />
+    </div>
+  );
+}
+
+function RadioButtons() {
+  return (
+    <div className="content-stretch flex items-center justify-center relative shrink-0 size-[20px]" data-name="Radio buttons">
+      <Container />
+    </div>
+  );
+}
+
+function Male() {
+  return (
+    <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-name="male">
+      <RadioButtons />
+      <p className="font-['Poppins:Regular',sans-serif] leading-[30px] not-italic relative shrink-0 text-[#797676] text-[16px] text-nowrap">Male</p>
+    </div>
+  );
+}
+
+function Icon1() {
+  return (
+    <div className="relative shrink-0 size-[24px]" data-name="icon">
+      <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
+        <g id="icon">
+          <path d={svgPaths.p1ee5e230} fill="var(--fill-0, #C9C6C5)" id="icon_2" />
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+function StateLayer6() {
+  return (
+    <div className="content-stretch flex items-center justify-center p-[8px] relative shrink-0" data-name="state-layer">
+      <Icon1 />
+    </div>
+  );
+}
+
+function Container1() {
+  return (
+    <div className="content-stretch flex items-center justify-center overflow-clip relative rounded-[100px] shrink-0" data-name="container">
+      <StateLayer6 />
+    </div>
+  );
+}
+
+function RadioButtons1() {
+  return (
+    <div className="content-stretch flex items-center justify-center relative shrink-0 size-[20px]" data-name="Radio buttons">
+      <Container1 />
+    </div>
+  );
+}
+
+function Female() {
+  return (
+    <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-name="female">
+      <RadioButtons1 />
+      <p className="font-['Poppins:Regular',sans-serif] leading-[30px] not-italic relative shrink-0 text-[#797676] text-[16px] text-nowrap">Female</p>
+    </div>
+  );
+}
+
+function Gender() {
+  return (
+    <div className="content-stretch flex gap-[30px] items-center relative shrink-0" data-name="Gender">
+      <Male />
+      <Female />
+    </div>
+  );
+}
+
+function Gender1() {
+  return (
+    <div className="content-stretch flex gap-[50px] items-start relative shrink-0" data-name="Gender">
+      <p className="font-['Poppins:Regular',sans-serif] leading-[30px] not-italic relative shrink-0 text-[#797676] text-[20px] text-nowrap">Gender*</p>
+      <Gender />
+    </div>
+  );
+}
+
+function StateLayer7() {
+  return (
+    <div className="basis-0 grow min-h-px min-w-px relative shrink-0 w-full" data-name="state-layer">
+      <div className="flex flex-row items-center justify-center size-full">
+        <div className="content-stretch flex items-center justify-center px-[24px] py-[10px] relative size-full">
+          <div className="flex flex-col font-['Poppins:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[0px] text-center text-nowrap text-white">
+            <p className="font-['Poppins:Bold',sans-serif] leading-[30px] text-[20px]">Next</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Login() {
+  return (
+    <div className="bg-[#f93] content-stretch flex flex-col h-[56px] items-center justify-center overflow-clip relative rounded-[4px] shrink-0 w-full" data-name="Login">
+      <StateLayer7 />
+    </div>
+  );
+}
+
+function Frame1() {
+  return (
+    <div className="content-stretch flex gap-[24px] items-center justify-center relative shrink-0 w-full">
+      <div className="relative shrink-0 size-[10px]">
+        <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 10 10">
+          <circle cx="5" cy="5" fill="var(--fill-0, #FF9933)" id="Ellipse 1" r="5" />
+        </svg>
+      </div>
+      <div className="relative shrink-0 size-[10px]">
+        <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 10 10">
+          <circle cx="5" cy="5" fill="var(--fill-0, #C9C6C5)" id="Ellipse 2" r="5" />
+        </svg>
+      </div>
+      <div className="relative shrink-0 size-[10px]">
+        <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 10 10">
+          <circle cx="5" cy="5" fill="var(--fill-0, #C9C6C5)" id="Ellipse 2" r="5" />
+        </svg>
+      </div>
+    </div>
+  );
+}
+
+function Form() {
+  return (
+    <div className="content-stretch flex flex-col gap-[30px] items-start relative shrink-0 w-full" data-name="Form">
+      <TextFieldName />
+      <TextFieldSurname />
+      <MartialStatus />
+      <BloodGroup />
+      <TextFieldMartialStatus2 />
+      <Gender1 />
+      <Login />
+      <Frame1 />
+    </div>
+  );
+}
+
+function FormContainer() {
+  return (
+    <div className="content-stretch flex flex-col gap-[50px] items-start relative shrink-0 w-full" data-name="Form-container">
+      <Title />
+      <Form />
+      <div className="flex flex-col font-['Poppins:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[0px] text-black text-center w-full">
+        <p className="leading-[30px] text-[16px]">
+          <span className="text-[#797676]">Have an account?</span> <span className="[text-underline-position:from-font] decoration-solid font-['Poppins:Regular',sans-serif] not-italic text-[#313030] underline">Login here</span>
+        </p>
+      </div>
+    </div>
+  );
+}
+
+function Form1() {
+  return (
+    <div className="absolute content-stretch flex flex-col gap-[30px] h-[1117px] items-center justify-center left-[calc(58.33%-12px)] px-[150px] py-0 top-0 w-[732px]" data-name="Form">
+      <Logo />
+      <FormContainer />
+    </div>
+  );
+}
+
+function HeroImage() {
+  return (
+    <div className="absolute h-[1117px] left-0 overflow-clip top-0 w-[996px]" data-name="Hero image">
+      <div className="absolute bg-white h-[985px] left-0 rounded-[50px] top-1/2 translate-y-[-50%] w-[752px]" />
+      <div className="absolute left-0 size-[1128px] top-0" data-name="image 7">
+        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgImage7} />
+      </div>
+      <div className="absolute bg-gradient-to-b from-[rgba(0,0,0,0)] h-[1117px] left-0 to-[#000000] top-0 w-[996px]" />
+    </div>
+  );
+}
+
+export default function SignupPersonalDetails() {
+  return (
+    <div className="bg-[#fff6ed] relative size-full" data-name="Signup - Personal Details">
+      <Form1 />
+      <HeroImage />
+    </div>
+  );
+}
